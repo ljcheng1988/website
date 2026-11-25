@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a6b"/><stop offset="1" stop-color="#f2545b"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd66b"/><stop offset="1" stop-color="#ffab40"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7ee0c6"/><stop offset="1" stop-color="#28b6a4"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9ed8ff"/><stop offset="1" stop-color="#5ca9ec"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cartoon handheld fan -->
+  <symbol id="fan-handheld" viewBox="0 0 200 200">
+    <circle cx="100" cy="84" r="58" fill="url(#coral)"/>
+    <circle cx="100" cy="84" r="48" fill="#fff3e8"/>
+    <g fill="#ffb3a1" opacity=".95">
+      <path d="M100 80c-10-22-4-34 8-30 9 3 9 16-8 30z"/>
+      <path d="M104 80c22-9 34-2 29 10-4 9-17 7-29-10z"/>
+      <path d="M100 88c10 21 4 33-8 29-9-4-9-17 8-29z"/>
+      <path d="M96 84c-22 9-34 2-29-10 4-9 17-7 29 10z"/>
+    </g>
+    <circle cx="100" cy="84" r="8" fill="#ffd66b" stroke="#f2545b" stroke-width="3"/>
+    <path d="M74 141h52a9 9 0 0 1 9 9v9a9 9 0 0 1-9 9H74a9 9 0 0 1-9-9v-9a9 9 0 0 1 9-9z" fill="#f2545b"/>
+    <rect x="82" y="168" width="36" height="18" rx="7" fill="#ffb3a1"/>
+    <circle cx="82" cy="72" r="3.5" fill="#3d2b2b"/><circle cx="118" cy="72" r="3.5" fill="#3d2b2b"/>
+    <path d="M92 106q8 7 16 0" fill="none" stroke="#3d2b2b" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Desktop / mini fan -->
+  <symbol id="fan-desktop" viewBox="0 0 200 200">
+    <rect x="46" y="22" width="108" height="112" rx="34" fill="url(#sky)"/>
+    <circle cx="100" cy="78" r="43" fill="#eaf6ff"/>
+    <g fill="#a8d6f5">
+      <path d="M100 74c-8-19-2-29 7-26 8 3 7 14-7 26z"/>
+      <path d="M104 74c19-7 29-1 25 8-3 8-14 6-25-8z"/>
+      <path d="M100 82c8 18 2 28-7 25-8-3-7-14 7-25z"/>
+      <path d="M96 78c-19 7-29 1-25-8 3-8 14-6 25 8z"/>
+    </g>
+    <circle cx="100" cy="78" r="7" fill="#ffd66b"/>
+    <rect x="88" y="132" width="24" height="20" rx="6" fill="#5ca9ec"/>
+    <path d="M62 158h76a12 12 0 0 1 0 24H62a12 12 0 0 1 0-24z" fill="#3f8fd1"/>
+    <circle cx="82" cy="60" r="3" fill="#3d2b2b"/><circle cx="118" cy="60" r="3" fill="#3d2b2b"/>
+    <path d="M92 94q8 6 16 0" fill="none" stroke="#3d2b2b" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Misting fan -->
+  <symbol id="fan-mist" viewBox="0 0 200 200">
+    <rect x="58" y="52" width="84" height="112" rx="26" fill="url(#mint)"/>
+    <circle cx="100" cy="94" r="34" fill="#e8fbf6"/>
+    <g fill="#a9e8d8">
+      <path d="M100 90c-7-15-2-23 5-21 7 2 6 12-5 21z"/>
+      <path d="M104 90c15-6 23-1 20 6-3 6-11 5-20-6z"/>
+      <path d="M100 98c7 15 2 23-5 21-7-2-6-12 5-21z"/>
+      <path d="M96 94c-15 6-23 1-20-6 3-6 11-5 20 6z"/>
+    </g>
+    <circle cx="100" cy="94" r="6" fill="#ffd66b"/>
+    <path d="M148 60c12-8 14-20 10-30M158 70c14-4 19-14 18-24" fill="none" stroke="#7fd8e8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="76" cy="76" r="2.8" fill="#3d2b2b"/><circle cx="124" cy="76" r="2.8" fill="#3d2b2b"/>
+    <path d="M92 112q8 6 16 0" fill="none" stroke="#3d2b2b" stroke-width="2.6" stroke-linecap="round"/>
+    <rect x="74" y="150" width="52" height="10" rx="5" fill="#1f9d8d"/>
+  </symbol>
+
+  <!-- Clip-on fan -->
+  <symbol id="fan-clip" viewBox="0 0 200 200">
+    <circle cx="100" cy="82" r="54" fill="url(#sun)"/>
+    <circle cx="100" cy="82" r="44" fill="#fff7e2"/>
+    <g fill="#ffd98a">
+      <path d="M100 78c-9-20-3-30 6-27 8 3 7 14-6 27z"/>
+      <path d="M104 78c20-7 30-1 26 7-3 7-14 6-26-7z"/>
+      <path d="M100 86c9 20 3 30-6 27-8-3-7-14 6-27z"/>
+      <path d="M96 82c-20 7-30 1-26-7 3-7 14-6 26 7z"/>
+    </g>
+    <circle cx="100" cy="82" r="7" fill="#ff8a6b"/>
+    <path d="M82 132v22M118 132v22" stroke="#e59b32" stroke-width="8" stroke-linecap="round"/>
+    <path d="M64 152h72v14H64z" fill="#e59b32"/>
+    <path d="M78 166v18a10 10 0 0 0 10 10h24a10 10 0 0 0 10-10v-18" fill="none" stroke="#c98220" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="84" cy="70" r="3" fill="#3d2b2b"/><circle cx="116" cy="70" r="3" fill="#3d2b2b"/>
+  </symbol>
+
+  <!-- Cat night light -->
+  <symbol id="lamp-cat" viewBox="0 0 200 200">
+    <path d="M62 78 54 34l32 20a60 60 0 0 1 28 0l32-20-8 44a58 58 0 0 1 8 30c0 32-26 54-60 54s-60-22-60-54a58 58 0 0 1 8-30z" fill="url(#sun)"/>
+    <path d="M70 70 66 48l18 11M130 70l4-22-18 11" fill="#ff9db0"/>
+    <ellipse cx="80" cy="106" rx="5" ry="7" fill="#3d2b2b"/>
+    <ellipse cx="120" cy="106" rx="5" ry="7" fill="#3d2b2b"/>
+    <path d="M92 124q8 8 16 0" fill="none" stroke="#3d2b2b" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M60 120h-8M148 120h8" stroke="#3d2b2b" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="68" cy="120" r="7" fill="#ff9db0" opacity=".7"/>
+    <circle cx="132" cy="120" r="7" fill="#ff9db0" opacity=".7"/>
+    <rect x="80" y="160" width="40" height="14" rx="6" fill="#e59b32"/>
+  </symbol>
+
+  <!-- Mushroom portable lamp -->
+  <symbol id="lamp-mushroom" viewBox="0 0 200 200">
+    <path d="M28 106c0-42 32-72 72-72s72 30 72 72a12 12 0 0 1-12 12H40a12 12 0 0 1-12-12z" fill="url(#coral)"/>
+    <g fill="#ffe0b8" opacity=".9">
+      <circle cx="70" cy="70" r="9"/><circle cx="112" cy="58" r="12"/><circle cx="146" cy="88" r="8"/>
+    </g>
+    <rect x="82" y="116" width="36" height="46" rx="12" fill="#fff3e8"/>
+    <path d="M62 166h76a10 10 0 0 1 0 20H62a10 10 0 0 1 0-20z" fill="#f2545b"/>
+    <circle cx="92" cy="135" r="3" fill="#3d2b2b"/><circle cx="108" cy="135" r="3" fill="#3d2b2b"/>
+    <path d="M95 146q5 5 10 0" fill="none" stroke="#3d2b2b" stroke-width="2.6" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Pen holder desk lamp -->
+  <symbol id="lamp-pen" viewBox="0 0 200 200">
+    <path d="M64 112V54a22 22 0 0 1 22-22h28a22 22 0 0 1 22 22v58z" fill="url(#mint)"/>
+    <path d="M96 34v78M116 34v78" stroke="#1f9d8d" stroke-width="4" opacity=".5"/>
+    <path d="M46 112h108l12 18H34z" fill="#28b6a4"/>
+    <path d="M54 130h92v40H54z" fill="#e8fbf6"/>
+    <rect x="64" y="140" width="8" height="30" rx="3" fill="#ff8a6b"/>
+    <rect x="82" y="138" width="8" height="32" rx="3" fill="#ffd66b"/>
+    <rect x="100" y="142" width="8" height="28" rx="3" fill="#5ca9ec"/>
+    <rect x="118" y="139" width="8" height="31" rx="3" fill="#a78bfa"/>
+    <circle cx="86" cy="70" r="3.4" fill="#3d2b2b"/><circle cx="114" cy="70" r="3.4" fill="#3d2b2b"/>
+    <path d="M92 86q8 7 16 0" fill="none" stroke="#3d2b2b" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Gift / bow night lamp -->
+  <symbol id="lamp-gift" viewBox="0 0 200 200">
+    <rect x="44" y="76" width="112" height="94" rx="18" fill="url(#coral)"/>
+    <rect x="92" y="76" width="16" height="94" fill="#ffd66b"/>
+    <rect x="44" y="112" width="112" height="16" fill="#ffd66b"/>
+    <path d="M100 76c-22 0-36-12-32-24 4-11 20-8 32 24 12-32 28-35 32-24 4 12-10 24-32 24z" fill="#ffd66b"/>
+    <circle cx="68" cy="150" r="3.6" fill="#fff3e8"/><circle cx="132" cy="150" r="3.6" fill="#fff3e8"/>
+    <path d="M92 150q8 7 16 0" fill="none" stroke="#fff3e8" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Dinosaur mini lamp -->
+  <symbol id="lamp-dino" viewBox="0 0 200 200">
+    <path d="M70 148c-22-4-30-22-22-38 6-12 20-12 26-2l6-28c2-12 14-20 26-18 14 2 22 14 20 28l-4 24 14 6 14-18 14 8-10 24c-2 6-8 10-14 12l-4 24H78z" fill="url(#mint)"/>
+    <path d="M96 72c-4-10 0-18 8-20 8-2 14 4 14 12" fill="none" stroke="#28b6a4" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="114" cy="84" r="4" fill="#3d2b2b"/>
+    <circle cx="126" cy="92" r="3" fill="#fff" opacity=".8"/>
+    <path d="M118 106q7 5 12 0" fill="none" stroke="#3d2b2b" stroke-width="2.6" stroke-linecap="round"/>
+    <g fill="#ffd66b"><path d="M78 96l6 8-9 5zM76 118l7 6-9 5z"/></g>
+  </symbol>
+
+  <!-- Butterfly fan -->
+  <symbol id="fan-butterfly" viewBox="0 0 200 200">
+    <ellipse cx="66" cy="78" rx="34" ry="26" transform="rotate(-24 66 78)" fill="url(#sun)"/>
+    <ellipse cx="134" cy="78" rx="34" ry="26" transform="rotate(24 134 78)" fill="url(#sun)"/>
+    <ellipse cx="72" cy="124" rx="26" ry="20" transform="rotate(20 72 124)" fill="#ff9db0"/>
+    <ellipse cx="128" cy="124" rx="26" ry="20" transform="rotate(-20 128 124)" fill="#ff9db0"/>
+    <rect x="94" y="62" width="12" height="96" rx="6" fill="#f2545b"/>
+    <circle cx="100" cy="56" r="12" fill="#ffd66b"/>
+    <path d="M96 48c-6-12-18-14-24-10 2 10 12 16 24 10zM104 48c6-12 18-14 24-10-2 10-12 16-24 10z" fill="#ff8a6b"/>
+    <circle cx="96" cy="55" r="2.6" fill="#3d2b2b"/><circle cx="104" cy="55" r="2.6" fill="#3d2b2b"/>
+  </symbol>
+
+  <!-- Sparkle decorations -->
+  <symbol id="sparkle" viewBox="0 0 24 24">
+    <path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12C7 11 11 7 12 0z" fill="#ffd66b"/>
+  </symbol>
+</svg>
