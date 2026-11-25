@@ -33,6 +33,11 @@ Then visit <http://localhost:8000>.
 3. Under **Build and deployment**, set **Source** to `Deploy from a branch`, choose `main` / `/ (root)`, and save.
 4. Your site will be available at `https://<username>.github.io/<repository>/`.
 
+## Custom domain
+
+The `CNAME` file at the repository root points this site to the test domain `www.thrivingelephant.xyz`.
+DNS at the registrar must contain a CNAME record: `www` → `ljcheng1988.github.io`.
+
 ## Contact details shown on the site
 
 - Email: waxsam@outlook.com
