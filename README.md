@@ -26,17 +26,19 @@ python -m http.server 8000
 
 Then visit <http://localhost:8000>.
 
-## Deploy to GitHub Pages
+## Deploy
 
-1. Push this folder to the target GitHub repository.
-2. In the repository, go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to `Deploy from a branch`, choose `main` / `/ (root)`, and save.
-4. Your site will be available at `https://<username>.github.io/<repository>/`.
+GitHub holds the source code. The live test site is served by a Cloudflare Worker with static assets:
 
-## Custom domain
+```bash
+npx wrangler deploy
+```
 
-The `CNAME` file at the repository root points this site to the test domain `www.thrivingelephant.xyz`.
-DNS at the registrar must contain a CNAME record: `www` → `ljcheng1988.github.io`.
+`wrangler.jsonc` names the Worker `website` and serves the repository root as static assets; `.assetsignore` lists repository files that should not be published when deploying with Wrangler.
+
+The live test domain is `https://thrivingelephant.xyz` (apex), served through Cloudflare. The `www` subdomain is not configured yet; add a Cloudflare redirect rule from `www.thrivingelephant.xyz/*` to `https://thrivingelephant.xyz/$1` if both forms are needed.
+
+GitHub Pages is kept only as a secondary preview at `https://ljcheng1988.github.io/website/`; its custom domain setting has been removed to avoid conflicts with Cloudflare.
 
 ## Contact details shown on the site
 
