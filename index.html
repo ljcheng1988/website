@@ -64,14 +64,56 @@
         <div class="hero-visual reveal" aria-hidden="true">
           <div class="hero-disc"></div>
           <svg class="hero-art" viewBox="0 0 520 480">
-            <use href="assets/product-art.svg#fan-handheld" x="18" y="20" width="240" height="240"/>
+            <defs>
+              <linearGradient id="heroCoral" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ff8a6b"/><stop offset="1" stop-color="#f2545b"/>
+              </linearGradient>
+              <linearGradient id="heroSky" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#9ed8ff"/><stop offset="1" stop-color="#5ca9ec"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Red handheld fan: blades rotate slowly -->
+            <g transform="translate(18 20) scale(1.2)">
+              <circle cx="100" cy="84" r="58" fill="url(#heroCoral)"/>
+              <circle cx="100" cy="84" r="48" fill="#fff3e8"/>
+              <g class="spin-blades" fill="#ffb3a1" opacity=".95">
+                <path d="M100 80c-10-22-4-34 8-30 9 3 9 16-8 30z"/>
+                <path d="M104 80c22-9 34-2 29 10-4 9-17 7-29-10z"/>
+                <path d="M100 88c10 21 4 33-8 29-9-4-9-17 8-29z"/>
+                <path d="M96 84c-22 9-34 2-29-10 4-9 17-7 29 10z"/>
+              </g>
+              <circle cx="100" cy="84" r="8" fill="#ffd66b" stroke="#f2545b" stroke-width="3"/>
+              <path d="M74 141h52a9 9 0 0 1 9 9v9a9 9 0 0 1-9 9H74a9 9 0 0 1-9-9v-9a9 9 0 0 1 9-9z" fill="#f2545b"/>
+              <rect x="82" y="168" width="36" height="18" rx="7" fill="#ffb3a1"/>
+              <circle cx="82" cy="72" r="3.5" fill="#3d2b2b"/><circle cx="118" cy="72" r="3.5" fill="#3d2b2b"/>
+              <path d="M92 106q8 7 16 0" fill="none" stroke="#3d2b2b" stroke-width="3" stroke-linecap="round"/>
+            </g>
+
             <use href="assets/product-art.svg#lamp-cat" x="268" y="8" width="230" height="230"/>
-            <use href="assets/product-art.svg#fan-desktop" x="2" y="248" width="230" height="230"/>
+
+            <!-- Blue desktop fan: blades rotate slowly -->
+            <g transform="translate(2 248) scale(1.15)">
+              <rect x="46" y="22" width="108" height="112" rx="34" fill="url(#heroSky)"/>
+              <circle cx="100" cy="78" r="43" fill="#eaf6ff"/>
+              <g class="spin-blades" fill="#a8d6f5">
+                <path d="M100 74c-8-19-2-29 7-26 8 3 7 14-7 26z"/>
+                <path d="M104 74c19-7 29-1 25 8-3 8-14 6-25-8z"/>
+                <path d="M100 82c8 18 2 28-7 25-8-3-7-14 7-25z"/>
+                <path d="M96 78c-19 7-29 1-25-8 3-8 14-6 25 8z"/>
+              </g>
+              <circle cx="100" cy="78" r="7" fill="#ffd66b"/>
+              <rect x="88" y="132" width="24" height="20" rx="6" fill="#5ca9ec"/>
+              <path d="M62 158h76a12 12 0 0 1 0 24H62a12 12 0 0 1 0-24z" fill="#3f8fd1"/>
+              <circle cx="82" cy="60" r="3" fill="#3d2b2b"/><circle cx="118" cy="60" r="3" fill="#3d2b2b"/>
+              <path d="M92 94q8 6 16 0" fill="none" stroke="#3d2b2b" stroke-width="3" stroke-linecap="round"/>
+            </g>
+
             <use href="assets/product-art.svg#lamp-mushroom" x="268" y="250" width="230" height="230"/>
             <use href="assets/product-art.svg#sparkle" x="236" y="212" width="46" height="46"/>
           </svg>
           <span class="float-badge badge-one">OEM / ODM</span>
-          <span class="float-badge badge-two">18+ years export</span>
+          <span class="float-badge badge-two">18+ years experiences</span>
           <span class="float-badge badge-three">280+ products</span>
         </div>
       </div>

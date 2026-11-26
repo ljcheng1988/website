@@ -106,6 +106,8 @@ p { margin: 0 0 16px; }
 .hero-visual { position: relative; min-height: 480px; display: grid; place-items: center; }
 .hero-disc { position: absolute; width: min(100%, 500px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff3e8, #ffe7d8 60%, #ffd8c7); box-shadow: inset 0 0 0 14px rgba(255,255,255,.5); }
 .hero-art { position: relative; width: 100%; max-width: 520px; filter: drop-shadow(0 18px 18px rgba(80, 45, 30, .12)); }
+.spin-blades { transform-box: fill-box; transform-origin: center; animation: fan-spin 10s linear infinite; }
+@keyframes fan-spin { to { transform: rotate(360deg); } }
 .float-badge { position: absolute; background: #fff; border-radius: 999px; padding: 10px 17px; font-weight: 800; font-size: .8rem; box-shadow: var(--shadow); white-space: nowrap; }
 .badge-one { top: 8%; right: -2%; color: var(--coral-dark); transform: rotate(6deg); }
 .badge-two { bottom: 20%; left: -7%; color: var(--mint); transform: rotate(-5deg); }
@@ -131,9 +133,9 @@ p { margin: 0 0 16px; }
 .product-card { background: var(--cream); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: transform .25s ease, box-shadow .25s ease; }
 .product-card:hover { transform: translateY(-8px); box-shadow: var(--shadow); }
 .product-card.is-hidden { display: none; }
-.product-art { height: 200px; display: grid; place-items: center; }
+.product-art { height: 210px; display: grid; place-items: center; overflow: hidden; padding: 16px; box-sizing: border-box; }
 .product-art svg { width: 74%; height: 74%; transition: transform .35s ease; }
-.product-art img { width: 100%; height: 100%; object-fit: contain; padding: 10px; display: block; transition: transform .35s ease; }
+.product-art img { width: 100%; height: 100%; object-fit: contain; padding: 0; display: block; transition: transform .35s ease; }
 .product-card:hover .product-art svg, .product-card:hover .product-art img { transform: scale(1.06); }
 .art-coral { background: #ffe6de; }
 .art-sky { background: #e2f1ff; }
@@ -343,4 +345,5 @@ p { margin: 0 0 16px; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  .spin-blades { animation: none !important; }
 }
