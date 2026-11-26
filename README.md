@@ -51,3 +51,4 @@ GitHub Pages is kept only as a secondary preview at `https://ljcheng1988.github.
 
 - `v1.0` — archived first version (static site before photo galleries).
 - `v1.0A` — adds three photo gallery anchors inside About: `#tradeshows`, `#factory`, `#production`. Product/trade-show/factory/production photos are optimised WebP files in `assets/gallery/`; the original uploads remain untouched in `assets/`.
+- `v1.0B` — replaces product illustrations with real optimized WebP photos, moves all photo galleries out of the homepage into `about/` subpages, styles the WAXSAM logo into the header, and replaces the office gallery with small, softened, privacy-conscious images.
