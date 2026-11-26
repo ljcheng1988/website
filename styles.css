@@ -302,7 +302,6 @@ p { margin: 0 0 16px; }
 .about-card p { margin: 0; color: var(--muted); font-size: .92rem; }
 .gallery--office { grid-template-columns: repeat(4, 1fr); justify-content: center; }
 .gallery--office .gallery-item { grid-column: span 2; max-width: 360px; aspect-ratio: 4 / 3; }
-.gallery--office .gallery-item img { filter: blur(.4px); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1000px) {
