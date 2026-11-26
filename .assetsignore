@@ -8,6 +8,7 @@ package.json
 package-lock.json
 node_modules
 .opencode
+.wrangler
 
 # Original uploads kept locally only — do not publish
 assets/Products/
