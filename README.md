@@ -46,3 +46,8 @@ GitHub Pages is kept only as a secondary preview at `https://ljcheng1988.github.
 - Tel: +86 754 87216469
 - WhatsApp / Mobile: +86 15815304222
 - Address: Wenguan Road, Chenghai, Shantou City, Guangdong Province, China 515800
+
+## Version history
+
+- `v1.0` — archived first version (static site before photo galleries).
+- `v1.0A` — adds three photo gallery anchors inside About: `#tradeshows`, `#factory`, `#production`. Product/trade-show/factory/production photos are optimised WebP files in `assets/gallery/`; the original uploads remain untouched in `assets/`.
