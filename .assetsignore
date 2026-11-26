@@ -8,3 +8,11 @@ package.json
 package-lock.json
 node_modules
 .opencode
+
+# Original uploads kept locally only — do not publish
+assets/Products/
+assets/office-view*
+assets/tradeshow*
+assets/workshop*
+assets/production*
+assets/微信图片_*
