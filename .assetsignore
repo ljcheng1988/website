@@ -11,7 +11,7 @@ node_modules
 .wrangler
 
 # Original uploads kept locally only — do not publish
-assets/Products/*.jpg
+assets/_original-products/
 assets/office-view*
 assets/tradeshow*
 assets/workshop*
